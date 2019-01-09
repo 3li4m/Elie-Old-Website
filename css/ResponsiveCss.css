@@ -82,6 +82,13 @@ p{
 .landing-text h1{
 	-webkit-text-fill-color: rgba(211,211,211,.2);
 	-webkit-text-stroke-width:2px;
+	-moz-text-fill-color: rgba(211,211,211,.2);
+	-moz-text-stroke-width: 2px;
+	-o-text-fill-color: rgba(211,211,211,.2);
+	-o-text-stroke-width: 2px;
+	-ms-text-fill-color: rgba(211,211,211,.2);
+	-ms-text-stroke-width: 2px;
+	
 	font-weight: bold;
 	color: rgba(255,255,255,.2);
 	margin: 0;
@@ -96,15 +103,24 @@ p{
     padding: 0;
 	content: attr(data-text);
 	position:absolute;
+	
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width:0px;
+	-moz-text-fill-color: white;
+	-moz-text-stroke-width:0px;
+	-o-text-fill-color: white;
+	-o-text-stroke-width:0px;
+	-ms-text-fill-color: white;
+	-ms-text-stroke-width:0px;
+	
 	color: white;
-	width:.7%;
+	width:20%;
 	overflow:hidden;
 	transition: 4s;
+	
 }
 .landing-text h1:hover:before{
-	width:40%;
+	width:100%;
 }
 
 /*!End Navbar*/
@@ -426,105 +442,7 @@ button a:hover{
 /*!Awsome Button Anim*/
 
 /*Letter Animation*/
-@-webkit-keyframes bounce {
-    0% {
-      top: 0;
-      animation-timing-function: ease-out;
-    }
-    17% {
-      top: 15px;
-      animation-timing-function: ease-in;
-    }
-    34% {
-      top: 0;
-      animation-timing-function: ease-out;
-    }
-    51% {
-      top: 8px;
-      animation-timing-function: ease-in;
-    }
-    68% {
-      top: 0px;
-      animation-timing-function: ease-out;
-    }
-    85% {
-      top: 3px;
-      animation-timing-function: ease-in;
-    }
-    100% {
-      top: 0;
-    }
-}
-@-moz-keyframes bounce {
-    0% {
-      top: 0;
-      animation-timing-function: ease-out;
-    }
-    17% {
-      top: 15px;
-      animation-timing-function: ease-in;
-    }
-    34% {
-      top: 0;
-      animation-timing-function: ease-out;
-    }
-    51% {
-      top: 8px;
-      animation-timing-function: ease-in;
-    }
-    68% {
-      top: 0px;
-      animation-timing-function: ease-out;
-    }
-    85% {
-      top: 3px;
-      animation-timing-function: ease-in;
-    }
-    100% {
-      top: 0;
-    }
-}
-@keyframes bounce {
-    0% {
-      top: 0;
-      animation-timing-function: ease-out;
-    }
-    17% {
-      top: 15px;
-      animation-timing-function: ease-in;
-    }
-    34% {
-      top: 0;
-      animation-timing-function: ease-out;
-    }
-    51% {
-      top: 8px;
-      animation-timing-function: ease-in;
-    }
-    68% {
-      top: 0px;
-       }
-    85% {
-      top: 3px;
-      animation-timing-function: ease-in;
-    }
-    100% {
-      top: 0;
-    }
-}
-.box { 
-    position: relative;
-    float:left;
-    background:#f00; 
-    width:50px;
-    height:50px;
-    margin-right:5px;
-}
-.box.animated { 
-    -moz-animation: bounce 1s;
-    -webkit-animation: bounce 1s;
-    animation: bounce 1s;
-}
+
 /*Letter Animation*/
 
 .mynavbtn {
