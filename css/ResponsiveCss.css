@@ -137,7 +137,7 @@ p{
 
 #fixed{
 	/*'i dont own the image*/
-	background: url('../images/Surreal.jpg')no-repeat center center;
+	background: url('../images/Surreal.jpg')no-repeat center center fixed;
 	display: table;
 	height: 30%;
 	position: relative;
