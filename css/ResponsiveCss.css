@@ -35,7 +35,7 @@ p{
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size:100% 100%
+	background-size:cover;
 }
 /*!Background Image*/
 
@@ -120,7 +120,7 @@ p{
 	
 }
 .landing-text h1:hover:before{
-	width:40%;
+	width:20%;
 }
 
 /*!End Navbar*/
@@ -140,9 +140,7 @@ p{
 	height: 30%;
 	position: relative;
 	width: 100%;
-	background-size:cover;
-
-	
+	background-size:cover;	
 }
 /*Footer*/
 footer{
@@ -211,6 +209,14 @@ footer{
 @media (max-width: 375px){
 	.landing-text h1{
 		font-size: 200%;
+	}
+	#home{
+		background: url('../images/background.jpg')no-repeat center center fixed;
+		display: table;
+		
+		position: relative;
+	
+		background-size:100% 40%;
 	}
 }
 
