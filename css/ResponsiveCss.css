@@ -30,7 +30,7 @@ p{
 
 /*Background Image*/
 #home{
-	background: url('../images/background.jpg')no-repeat center center fixed;
+	background-color: black;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -204,28 +204,13 @@ footer{
 	.landing-text h1{
 		font-size: 220%;
 	}
-		#home{
-		background: url('../images/background.jpg')no-repeat center center fixed;
-		display: table;
-		
-		position: relative;
-	
-		background-size:100% 40%;
-	}
 }
 
 @media (max-width: 375px){
 	.landing-text h1{
 		font-size: 200%;
 	}
-	#home{
-		background: url('../images/background.jpg')no-repeat center center fixed;
-		display: table;
-		
-		position: relative;
-	
-		background-size:100% 40%;
-	}
+
 }
 
 @media (max-width: 370px){
