@@ -204,6 +204,14 @@ footer{
 	.landing-text h1{
 		font-size: 220%;
 	}
+		#home{
+		background: url('../images/background.jpg')no-repeat center center fixed;
+		display: table;
+		
+		position: relative;
+	
+		background-size:100% 40%;
+	}
 }
 
 @media (max-width: 375px){
