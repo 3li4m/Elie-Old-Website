@@ -140,7 +140,9 @@ p{
 	height: 30%;
 	position: relative;
 	width: 100%;
-	background-size:cover;	
+	background-size:cover;
+
+	
 }
 /*Footer*/
 footer{
@@ -210,7 +212,6 @@ footer{
 	.landing-text h1{
 		font-size: 200%;
 	}
-
 }
 
 @media (max-width: 370px){
