@@ -482,3 +482,23 @@ button a:hover{
 }
 
 /* Style the active class, and buttons on mouse-over */
+.mycard{
+	position:relative;
+}
+.mycard:hover .front{
+	transform: rotateY(180deg)
+}
+.mycard:hover .back{
+	transform: rotateY(0deg)
+}
+.faces{
+	backface-visibility:hidden;
+	transition:1s;
+}
+
+.back{
+	transform:rotateY(-180deg);
+	background:black;
+	height:100%;
+	position:absolute;
+}
