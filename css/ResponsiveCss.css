@@ -4,7 +4,10 @@ html,body{
 	scroll-behavior: smooth;
 	background-color:#474e56;
 }
-
+ @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
 
 .myAnimation:hover{
 	-webkit-animation-duration: 1s;
@@ -53,7 +56,6 @@ p{
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link{
 	background-color:rgba(255,255,255,0) !important ;
 	color:red;
-	
 }
 
 
@@ -135,7 +137,7 @@ p{
 
 #fixed{
 	/*'i dont own the image*/
-	background: url('../images/Surreal.jpg')no-repeat center center fixed;
+	background: url('../images/Surreal.jpg')no-repeat center center;
 	display: table;
 	height: 30%;
 	position: relative;
