@@ -45,7 +45,7 @@ p{
 /*nav scroll*/
 .navbar-dark{
 	transition: 500ms ease;
-	background-color:#1a222c !important;
+	background-color: transparent !important;
 	position:fixed;
 	/*background-color:transparent !important;*/
 }
