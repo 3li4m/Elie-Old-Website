@@ -99,12 +99,12 @@ p{
 	-webkit-text-fill-color: white;
 	-webkit-text-stroke-width:0px;
 	color: white;
-	width:.5%;
+	width:.7%;
 	overflow:hidden;
 	transition: 4s;
 }
 .landing-text h1:hover:before{
-	width:10%;
+	width:40%;
 }
 
 /*!End Navbar*/
@@ -118,12 +118,14 @@ p{
 }
 
 #fixed{
-	background: url('../images/gorilla.png')no-repeat center center fixed;
+	/*'i dont own the image*/
+	background: url('../images/Surreal.jpg')no-repeat center center fixed;
 	display: table;
 	height: 30%;
 	position: relative;
 	width: 100%;
-	background-size:cover;
+	background-size:100% 100%;
+
 	
 }
 /*Footer*/
