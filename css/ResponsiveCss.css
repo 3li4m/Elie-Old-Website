@@ -207,29 +207,59 @@ footer{
 		background-size: cover;
 		background-position: center;
 	}
+	.mycard{
+		height:100%;
+		
+	}
+	.back{
+		font-size:13px;
+	}
 }
 
 @media (max-width: 768px){
 	.landing-text h1{
 		font-size: 300%;
 	}
+	.back{
+		font-size:9px;
+	}
+	.back{
+		font-size:9px;
+	}
+
 }
 @media (max-width: 640px){
 	.landing-text h1{
 		font-size: 250%;
 	}
-
+	.mycard{
+		height:50%;
+		margin-top:30px;
+	}
+	.back{
+		font-size:20px;
+	}
+	.myCont{
+		width:90%;
+		padding-left:17%;
+	}
 }
 
 @media (max-width: 414px){
 	.landing-text h1{
 		font-size: 220%;
 	}
+	.back{
+		font-size:14px;
+	}
 }
 
 @media (max-width: 375px){
 	.landing-text h1{
 		font-size: 200%;
+	}
+	.back{
+		font-size:13px;
 	}
 }
 
@@ -253,6 +283,14 @@ footer{
 @media (max-width: 360px){
 	.landing-text h1{
 		font-size: 170%;
+	}
+}
+@media (max-width: 320px){
+	.landing-text h1{
+		font-size: 170%;
+	}
+		.back{
+		font-size:10px;
 	}
 }
 
