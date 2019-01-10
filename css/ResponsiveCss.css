@@ -536,7 +536,7 @@ button a:hover{
 	transform: rotateY(0deg)
 }
 .faces{
-	-webkit-backface-visibility
+	-webkit-backface-visibility:hidden;
 	backface-visibility:hidden;
 	transition:1s;
 }
