@@ -289,7 +289,7 @@ footer{
 	.landing-text h1{
 		font-size: 170%;
 	}
-		.back{
+	.back{
 		font-size:10px;
 	}
 }
@@ -536,6 +536,7 @@ button a:hover{
 	transform: rotateY(0deg)
 }
 .faces{
+	-webkit-backface-visibility
 	backface-visibility:hidden;
 	transition:1s;
 }
