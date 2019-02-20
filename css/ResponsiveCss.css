@@ -2,7 +2,7 @@ html,body{
 	height:100%;
 	width:100%;
 	scroll-behavior: smooth;
-	background-color:#474e56;
+	background-color:#48525d;
 }
 
 
@@ -30,7 +30,8 @@ p{
 
 /*Background Image*/
 #home{
-	background-color: black;
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
 	display: table;
 	height: 100%;
 	position: relative;
@@ -549,4 +550,9 @@ button a:hover{
 	background:black;
 	height:100%;
 	position:absolute;
+}
+
+.mySound {
+    overflow: hidden;
+    background: black !important;
 }
