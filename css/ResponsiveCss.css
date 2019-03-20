@@ -2,7 +2,7 @@ html,body{
 	height:100%;
 	width:100%;
 	scroll-behavior: smooth;
-	background-color:#48525d;
+	background-color:#1e2125;
 }
 
 
@@ -43,7 +43,7 @@ p{
 /*nav scroll*/
 .navbar-dark{
 	transition: 500ms ease;
-	background-color: transparent !important;
+	background-color: #1b2735  !important;
 	position:fixed;
 	/*background-color:transparent !important;*/
 }
@@ -433,15 +433,15 @@ button a:hover{
 }
 
 .animated-icon1 span {
-    background: white;
+    background: #9acc14;
 }
 
 .animated-icon3 span {
-    background: white;
+    background: #9acc14;
 }
 
 .animated-icon4 span {
-    background: white;
+    background: #9acc14;
 }
 
 .animated-icon1 span:nth-child(1) {
